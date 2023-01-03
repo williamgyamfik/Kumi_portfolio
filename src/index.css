@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*{
+  background-color: rgb(10, 47, 72);
+}
+
+li{
+  list-style: none;
+}
+
+.image_1{
+  width: 18rem;
+  height:18rem;
+  max-width: 100%;
+  border-width: 5px;
+  border-radius: 80%;
+  border: 5px solid rgba(0, 0, 0, 0.987);
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(8, 108, 151);
+}
+
+.contactBox{
+  border-width: 5px;
+  border: 5px solid rgba(0, 0, 0, 0.987);
+  border-color: rgb(8, 108, 151);
+}
+
+.projectBox{
+  border-width: 5px;
+  border: 5px solid rgba(0, 0, 0, 0.987);
+  border-color: rgb(255, 255, 255);
+}
+
+.projectBox:hover{
+  color:red;
+  transition: .5s ease;
+}
+
+.techIcons{
+  width: 4rem;
+  height: 4rem;
+  border: 5px;
+  border-width: 5px;
+  border-radius: 80%;
+  border: 5px solid rgba(0, 0, 0, 0.987);
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(8, 108, 151);
+}
+
+/* .techbox{
+  width:10rem;
+  height: 13rem;
+} */
