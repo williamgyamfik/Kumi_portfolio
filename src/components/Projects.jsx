@@ -12,6 +12,8 @@ const projects = [
       "A movie application built with React.js using API from TMBD.The app makes use of FireBase user authentication API endpoints which allows for secure login and logout using a generated token",
     image: africanFoodAppImage,
     id: Math.random(),
+    gitHub: "",
+    link: "",
   },
   {
     title: "Weather app",
@@ -19,6 +21,8 @@ const projects = [
       "A weather app created with vanilla JavaScript and styled with css",
     image: weatherApp,
     id: Math.random(),
+    gitHub: "",
+    link: "",
   },
   {
     title: "E-commerce clothing app",
@@ -26,18 +30,24 @@ const projects = [
       "An e-commerce application built with React.js using API from fakestoreapi.com.Search through a variety of categories and add items to your shopping cart",
     image: ecommerce,
     id: Math.random(),
+    gitHub: "https://github.com/williamgyamfik/ecommerce_app",
+    link: "",
   },
   {
     title: "African food order app",
     description: "A food order app made with React.js and styled with css3",
     image: africanFoodAppImage,
     id: Math.random(),
+    gitHub: "https://github.com/williamgyamfik/african-food-order-app",
+    link: "https://africanfoodorderapp.netlify.app/",
   },
   {
     title: "Geodata wrangling with R",
     description: "Tartu bus data wrangling with R and visualisation with QGIS",
     image: tartuOutputMap,
     id: Math.random(),
+    gitHub: "https://github.com/williamgyamfik/Tartu-Bus-Data-wrangling-with-R",
+    link: "",
   },
 
   {
@@ -46,6 +56,8 @@ const projects = [
       "This map was created to analyse the bus stop frequency in Estonia.It also shows major counties and their bus stop frequency",
     image: estoniaMap,
     id: Math.random(),
+    gitHub: "",
+    link: "",
   },
 ];
 
@@ -60,7 +72,7 @@ const Projects = () => {
         {projects.map((project) => {
           return (
             <div
-              className="text-light col-sm-12 col-md-6 col-lg-4 mb-4 shadow-lg"
+              className="text-light col-sm-12 col-md-6 col-lg-4 mb-4 shadow-lg "
               key={project.id}
             >
               <div
@@ -84,14 +96,14 @@ const Projects = () => {
                 </div>
                 <div className="d-flex justify-content-evenly align-items-center pt-3 pb-3">
                   <a>
-                    <button className="btn btn-info d-flex justify-content-center align-items-center ">
+                    <button className="btn btn-info text-light  d-flex justify-content-center align-items-center fw-bold">
                       GitHub
                     </button>
                   </a>
 
                   <a>
-                    <button className="btn btn-info d-flex justify-content-center align-items-center">
-                      Source
+                    <button className="btn btn-info text-light d-flex justify-content-center align-items-center fw-bold">
+                      Live
                     </button>
                   </a>
                 </div>
